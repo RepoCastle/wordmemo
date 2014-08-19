@@ -1,4 +1,4 @@
-#!/bin/env python2.7
+#!/usr/bin/env python2.7
 
 import json
 from pprint import pprint
@@ -18,9 +18,9 @@ def answerWebValue(webValue):
     return "<font color='blue'>" + webValue + "</font>"
 
 if __name__ == "__main__":
-    worddir = '../raw/youdao.json.processed'
+    worddir = './youdao.json.processed'
 
-    wordfile = '../raw/kaoyan.txt'
+    wordfile = './words.txt'
     i = 1
     for line in open(wordfile):
         for word in line.strip().split('\t'):
