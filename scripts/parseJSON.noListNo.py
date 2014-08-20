@@ -7,15 +7,15 @@ from pprint import pprint
 def questionWord(word):
     return "<font>" + word + "</font>"
 def answerPhonetic(phonetic):
-    return "<font color='red'>" + phonetic + "</font>"
+    return "<font color='green'>" + phonetic + "</font>"
 def answerTranslation(translation):
     return "<font>" + translation + "</font>"
 def answerExplain(explain):
-    return "<font color='green'>" + explain + "</font>"
+    return "<font color='white'>" + explain + "</font>"
 def answerWebKey(webKey):
-    return "<font color='red'>" + webKey + "</font>"
+    return "<font color='green'>" + webKey + "</font>"
 def answerWebValue(webValue):
-    return "<font color='blue'>" + webValue + "</font>"
+    return "<font color='white'>" + webValue + "</font>"
 
 if __name__ == "__main__":
     worddir = './youdao.json.processed'
